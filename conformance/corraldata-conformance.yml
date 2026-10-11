@@ -1,0 +1,28 @@
+generated: '2026-10-11'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://corraldata.com/data-security/
+sources:
+- https://corraldata.com/data-security/
+- https://docs.corraldata.com/kb/getting-started/row-level-security
+- https://docs.corraldata.com/kb/mcp/privacy-policy
+standards:
+- id: hipaa
+  conforms: true
+  evidence: HIPAA-compliant analytics.
+- id: hipaa
+  conforms: true
+  evidence: HIPAA-compliant AI agents that optimize operations, marketing, and patient care across every med spa location.
+- id: openapi-3.1
+  conforms: true
+  evidence: the document declares 3.1.0
+- id: oauth2
+  conforms: false
+  evidence: no securitySchemes declared
+- id: rfc9457
+  conforms: false
+  evidence: no response declares application/problem+json
+- id: idempotency
+  conforms: false
+  evidence: no idempotency key parameter on mutating operations
+docs: https://corraldata.com/data-security/

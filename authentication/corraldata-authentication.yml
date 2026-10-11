@@ -1,0 +1,19 @@
+generated: '2026-10-11'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.corraldata.com/kb/mcp/authentication
+sources:
+- https://docs.corraldata.com/kb/mcp/authentication
+- https://corraldata.com/guided-onboarding/
+- https://docs.corraldata.com/kb/getting-started/how-corraldata-works
+- https://docs.corraldata.com/kb/getting-started/quickstart
+description: CorralData MCP uses OAuth 2.0 Authorization Code flow with PKCE.
+schemes:
+- type: oauth2
+  name: CorralData MCP
+  evidence: The CorralData MCP Server uses OAuth 2.0 for authentication.
+  flows:
+  - authorization_code
+  how_to_obtain: Client ID is the public OAuth client ID corral-mcp-client; there is no client secret. The client is a public OAuth client protected
+    by PKCE.
+docs: https://docs.corraldata.com/kb/mcp/authentication

@@ -1,0 +1,18 @@
+generated: '2026-10-11'
+method: probed
+source: https://corraldata.com/privacy/
+signals:
+  data_retention:
+    evidence:
+      - source: https://corraldata.com/privacy/
+        http_status: 200
+        fetched: /tmp/privacy.html
+        quote: "We retain Google user data for as long as your account remains active or as needed to provide you services"
+    note: Retains user data while account active, no fixed retention period.
+  data_subject_request:
+    evidence:
+      - source: https://corraldata.com/privacy/
+        http_status: 200
+        fetched: /tmp/privacy.html
+        quote: "You may request deletion of your Google user data at any time by contacting us or disconnecting your Google account from our Service"
+    note: Allows users to request deletion of their data.

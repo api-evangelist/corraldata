@@ -1,0 +1,146 @@
+openapi: 3.1.0
+info:
+  title: CorralData API
+  version: '2026-10-11'
+  description: 'GENERATED FROM DOCUMENTATION by API Evangelist on 2026-10-11: 3 operation(s) read from 28 public documentation page(s) (each operation
+    names its page in x-source). This is not the provider''s published contract; CorralData has published no machine-readable contract that the
+    pipeline could find. Engine: local.'
+  x-evidence-tiers:
+    code-example: 0
+    documentation: 3
+    pages-with-code: 0
+    pages-read: 28
+  x-generated-from: documentation
+  x-provenance: generated
+  x-authored-by: API Evangelist
+  x-generated: '2026-10-11'
+  x-generator: generate-contract-from-docs.py
+  x-engine: local
+  x-sources:
+  - https://docs.corraldata.com/kb/mcp/tools-reference.md
+  - https://docs.corraldata.com/kb/mcp/usage-examples.md
+  - https://docs.corraldata.com/kb/explore-your-data/sql-client.md
+  - https://docs.corraldata.com/kb/mcp/getting-started.md
+  - https://docs.corraldata.com/kb/getting-started/quickstart.md
+  - https://docs.corraldata.com/kb/getting-started/reverse-etl.md
+  - https://docs.corraldata.com/kb/getting-started/manage-users.md
+  - https://docs.corraldata.com/kb/getting-started/add-dashboards.md
+  - https://docs.corraldata.com/kb/getting-started/account-settings.md
+  - https://docs.corraldata.com/kb/getting-started/add-board-via-ai.md
+  - https://docs.corraldata.com/kb/getting-started/automated-reports.md
+  - https://docs.corraldata.com/kb/getting-started/board-permissions.md
+  - https://docs.corraldata.com/kb/getting-started/add-widgets-via-ai.md
+  - https://docs.corraldata.com/kb/getting-started/row-level-security.md
+  - https://docs.corraldata.com/kb/getting-started/how-corraldata-works.md
+  - https://docs.corraldata.com/kb/mcp/corraldata-mcp-server.md
+  - https://docs.corraldata.com/kb/mcp/authentication.md
+  - https://docs.corraldata.com/kb/mcp/support.md
+  - https://docs.corraldata.com/kb/mcp/automations-and-integrations.md
+  - https://docs.corraldata.com/kb/explore-your-data/instant-insights.md
+  - https://docs.corraldata.com/kb/explore-your-data/correlation-analysis.md
+  - https://docs.corraldata.com/kb/explore-your-data/modify-via-ai.md
+  - https://docs.corraldata.com/kb/explore-your-data/modify-sql-via-ai.md
+  - https://docs.corraldata.com/kb/explore-your-data/modify-annotations.md
+  - https://docs.corraldata.com/kb/explore-your-data/change-chart-type.md
+  - https://docs.corraldata.com/kb/explore-your-data/view-a-widget-query.md
+  - https://docs.corraldata.com/kb/explore-your-data/data-apps.md
+  - https://docs.corraldata.com/kb/explore-your-data/export-raw-data.md
+paths:
+  /kb/explore-your-data/{exploreyourdataid}:
+    get:
+      operationId: get_kb_explore_your_data_exploreyourdataid
+      tags:
+      - Kb
+      summary: Change chart type
+      description: Perform an HTTP GET request on the URL with the `ask` and `goal` query parameters to retrieve a direct answer and relevant
+        excerpts from the documentation.
+      x-source: https://docs.corraldata.com/kb/explore-your-data/change-chart-type.md
+      parameters:
+      - name: exploreyourdataid
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The immediate question, specific and self‑contained, written in natural language.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The user’s ultimate goal, describing the outcome they want to achieve.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+        collapsed_from: 10 example path(s) differing only at exploreyourdataId
+  /kb/getting-started/{gettingstartedid}:
+    get:
+      operationId: get_kb_getting_started_gettingstartedid
+      tags:
+      - Kb
+      summary: Account Settings
+      description: Perform an HTTP GET request on the URL with the `ask` and `goal` query parameters to retrieve a direct answer from the documentation.
+      x-source: https://docs.corraldata.com/kb/getting-started/account-settings.md
+      parameters:
+      - name: gettingstartedid
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The immediate question, specific and self‑contained, written in natural language.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The user’s ultimate goal, describing the outcome they want to achieve.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+        collapsed_from: 11 example path(s) differing only at gettingstartedId
+  /kb/mcp/{mcpid}:
+    get:
+      operationId: get_kb_mcp_mcpid
+      tags:
+      - Kb
+      summary: Authentication
+      x-source: https://docs.corraldata.com/kb/mcp/authentication.md
+      parameters:
+      - name: mcpid
+        in: path
+        required: true
+        schema:
+          type: string
+      - name: ask
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The immediate question, specific and self‑contained, written in natural language.
+      - name: goal
+        in: query
+        required: false
+        schema:
+          type: string
+        description: The user’s ultimate goal, describing the outcome they want to achieve.
+      responses:
+        '200':
+          description: Success (status as documented)
+      x-evidence:
+        kind: documentation
+        collapsed_from: 7 example path(s) differing only at mcpId
+tags:
+- name: Kb

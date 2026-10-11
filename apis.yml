@@ -1,23 +1,121 @@
 aid: corraldata
+
 name: CorralData
-description: 'CorralData is a company surfaced via the API Evangelist harvest backlog (source: secondary-market)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://corraldata.com/wp-content/uploads/2025/02/Facebook-Link-Share-Image-2.1-ratio-@2x.png
+
+description: CorralData provides AI‑powered analytics platforms for healthcare brands, enabling unified data modeling, governance, and actionable
+  insights across a wide range of reporting needs. Their solutions include data apps, reverse ETL, and integration with AI assistants like Claude,
+  helping organizations turn raw data into strategic decisions while maintaining security and compliance.
+
 url: https://raw.githubusercontent.com/api-evangelist/corraldata/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-11 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-11'
+
 modified: '2026-10-11'
+
 tags:
 - Company
-apis: []
+- Data
+- Analytics
+- Healthcare
+- AI
+- Platform
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/corraldata-plans-pricing.yml
+- type: Spectral
+  url: rules/corraldata-rules.yml
+- type: Authentication
+  url: authentication/corraldata-authentication.yml
+- type: Conformance
+  url: conformance/corraldata-conformance.yml
+- type: LLMsTxt
+  url: llms/corraldata-llms.txt
+- type: WellKnown
+  url: well-known/corraldata-well-known.yml
+- type: Hosts
+  url: hosts/corraldata-hosts.yml
+- type: Vendors
+  url: vendors/corraldata-vendors.yml
+- type: Webhooks
+  url: https://corraldata.com/integrations/webhooks/
+- type: TermsOfService
+  url: https://corraldata.com/terms-of-use/
+- type: PrivacyPolicy
+  url: https://corraldata.com/privacy/
+- type: ChangeLog
+  url: https://corraldata.com/changelog/
+- type: GitHubOrganization
+  url: https://github.com/CorralData
+- type: DomainSecurity
+  url: security/corraldata-domain-security.yml
 - type: Website
-  url: https://www.nasdaqprivatemarket.com/
+  url: https://corraldata.com/
+- type: Blog
+  url: https://corraldata.com/blog/
+- type: Pricing
+  url: https://corraldata.com/pricing/
+- type: Documentation
+  url: https://corraldata.com/platform/
+- type: Support
+  url: https://corraldata.com/guided-onboarding/
+- type: DomainSecurity
+  url: security/corraldata-domain-security.yml
+- type: Website
+  url: https://corraldata.com/
+- type: Blog
+  url: https://corraldata.com/blog/
+- type: Pricing
+  url: https://corraldata.com/pricing/
+- type: Documentation
+  url: https://corraldata.com/platform/
+- type: Support
+  url: https://corraldata.com/guided-onboarding/
+
+apis:
+- name: CorralData API
+  description: API platform for CorralData providing data analytics services.
+  humanURL: https://corraldata.com/platform/
+  aid: corraldata:corraldata-api-2
+- aid: corraldata:corraldata-api
+  name: CorralData API
+  description: 'CorralData API as documented publicly: 3 operations. Contract generated from the documentation by API Evangelist (2026-10-11);
+
+    not the provider''s own document.'
+  humanURL: https://docs.corraldata.com/kb/mcp/tools-reference.md
+  properties:
+  - type: OpenAPI
+    url: openapi/_ae-authored/corraldata-openapi-generated.yml
+    x-provenance: generated
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  detail: API host https://api.corraldata.com returned 404 for all OpenAPI discovery URLs
+  evidence:
+  - url: https://api.corraldata.com/openapi.json
+    status: 404
+  checked: '2026-10-11'
+x-enrichment:
+  date: '2026-10-11'
+  status: enriched
+  artifacts_added: 14
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

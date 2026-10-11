@@ -1,0 +1,34 @@
+generated: '2026-10-11'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://corraldata.com/pricing/
+sources:
+- https://corraldata.com/pricing/
+name: CorralData pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: Per integration
+  price_text: $300
+  price: 300
+  billing_period: annual
+  description: Billed per data source you connect.
+- name: Per integration
+  price_text: $350
+  price: 350
+  billing_period: monthly
+  description: Billed per data source you connect.
+- name: Per location
+  price_text: $300
+  price: 300
+  billing_period: annual
+  description: Multi-location healthcare, retail, restaurants, spas, and franchises (5+ locations).
+- name: Per location
+  price_text: $350
+  price: 350
+  billing_period: monthly
+  description: Multi-location healthcare, retail, restaurants, spas, and franchises (5+ locations).
+- name: Enterprise
+  price_text: Custom scoped on a quick call
+  description: Multi-brand portfolios, PE-backed groups, franchise HQs, BYOW customers, and anyone needing row-level security or custom integrations.
+docs: https://corraldata.com/pricing/

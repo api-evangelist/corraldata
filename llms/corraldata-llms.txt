@@ -1,0 +1,72 @@
+# CorralData
+
+> CorralData is a HIPAA-compliant AI analytics platform that connects 600+ data sources — EMRs, CRMs, ad platforms, POS, and billing systems — into a single, governed source of truth. Its AI agent, AskCorral, answers any business question and can act on the data, backed by white-glove onboarding with a dedicated Technical Account Manager instead of a DIY setup. Rated 4.9 on G2. CorralData serves data-driven teams in MedSpa/aesthetics, dental, behavioral health, plastic surgery, veterinary, private equity, retail, and ecommerce.
+
+## Platform
+
+- [The Whole Stack](https://corraldata.com/platform/): How CorralData works end to end — data unified, modeled, and turned into action.
+- [AskCorral Agent](https://corraldata.com/askcorral-agent/): AI reporting and AI agents that answer any business question and act on your data, not just analyze it.
+- [Instant Insights](https://corraldata.com/instant-insights/): Automated, plain-language answers surfaced from your connected data without being asked.
+- [Data Apps](https://corraldata.com/data-apps/): Governed, live tools built on your data.
+- [Integrations](https://corraldata.com/integrations/): 600+ prebuilt connectors for EMRs, CRMs, ad platforms, POS, and billing systems — no engineering required.
+- [Reverse ETL](https://corraldata.com/reverse-etl/): AI agents detect opportunities in your data and sync them back across your platforms.
+- [Roll-up Reporting](https://corraldata.com/roll-up-reporting/): Sync data from 600+ sources, align KPIs, and see portfolio-wide results across every location.
+- [CorralData MCP](https://corraldata.com/corraldata-mcp/): Brings your business data and intelligence directly into Claude and other AI assistants.
+- [Data Security](https://corraldata.com/data-security/): HIPAA-compliant security, including BAAs, so you can use AI without compromising compliance.
+- [Guided Onboarding](https://corraldata.com/guided-onboarding/): A dedicated Technical Account Manager guides your team through white-glove, no-code setup.
+
+## Industries
+
+- [MedSpa/Aesthetics](https://corraldata.com/aesthetics-med-spa-reporting/): HIPAA-compliant AI agents for operations, marketing, and patient care.
+- [Dental Groups/DSOs](https://corraldata.com/dental-practices/): Production, case acceptance, recare, and marketing ROI across practices.
+- [Behavioral Health](https://corraldata.com/reporting/behavioral-health/): Census growth with HIPAA-compliant analytics.
+- [Plastic Surgery](https://corraldata.com/plastic-surgery-practices/): Consult conversion, surgeon performance, and marketing ROI.
+- [Veterinary/VSOs](https://corraldata.com/reporting/veterinary/): Measure every hospital the same way.
+- [Private Equity](https://corraldata.com/reporting/private-equity/): Portfolio-wide roll-up reporting for PE-backed healthcare and consumer brands.
+- [Healthcare Practices](https://corraldata.com/healthcare-practices/): Which channels drive high-value patients, which providers retain volume, and where revenue is lost.
+- [Retail](https://corraldata.com/reporting/retail/): Reporting for retail brands.
+- [Ecommerce/DTC](https://corraldata.com/reporting/ecommerce/): Reporting for ecommerce and DTC brands.
+- [B2B](https://corraldata.com/reporting/b2b/): Reporting for B2B organizations.
+- [Restaurants](https://corraldata.com/reporting/restaurants/): Reporting for fast-casual and multi-location restaurant brands.
+- [Non-profit](https://corraldata.com/reporting/non-profit/): Reporting for non-profit organizations.
+- [Agencies/Partners](https://corraldata.com/partnerships/): CorralData partners with 80+ agencies and technology providers to help shared clients grow.
+
+## Compare CorralData
+
+- [CorralData vs Tableau](https://corraldata.com/tableau-alternative/): 600+ integrations versus Tableau's 33, white-glove onboarding included, no data team required.
+- [CorralData vs Power BI](https://corraldata.com/powerbi-alternative/): 600+ integrations and any-API support versus Power BI's 177 built-in connectors, no-code setup for business users.
+- [CorralData vs Looker](https://corraldata.com/looker-alternative/): 600+ integrations versus Looker's 21, no LookML or engineers required.
+- [CorralData vs Looker Studio](https://corraldata.com/looker-studio-alternative/): 600+ integrations versus Looker Studio's 33, plus a dedicated data warehouse and AI-built reports.
+- [CorralData vs Domo](https://corraldata.com/domo-alternative/): Guided onboarding, full-service US-based support, and secure AI chat with your data.
+- [CorralData vs Sigma Computing](https://corraldata.com/sigma-computing-alternative/): 600+ integrations versus Sigma's 35, plus a genuinely no-code interface.
+- [CorralData vs Funnel.io](https://corraldata.com/funnel-io-alternative/): 600+ integrations with support for any API, versus Funnel's connector list.
+- [CorralData vs Triple Whale](https://corraldata.com/triple-whale-alternative/): 600+ integrations versus Triple Whale's ~30, with custom non-templated reporting.
+- [CorralData vs Illume](https://corraldata.com/compare/illume/): 600+ integrations versus Illume's 2-4 capped connections, unlimited AskCorral AI versus Illume's 1,000-chat monthly cap, and published BAAs across the full AI chain.
+
+CorralData holds a 4.9 rating on G2 across all of the above comparisons.
+
+## Research
+
+- [H1 2026 Aesthetics Industry Benchmark](https://corraldata.com/research-h1-2026-aesthetics-industry-benchmark/): 100+ brands, 54 performance dimensions.
+- [Q1 2026 Zenoti Report](https://corraldata.com/q1-2026-zenoti-report/): Benchmark of the Zenoti + CorralData network.
+
+## Case Studies
+
+- [Case Study Library](https://corraldata.com/blog/category/case-study/): All customer case studies.
+- [Pfizer](https://corraldata.com/blog/pfizer-case-study/): Complex data turned into marketing intelligence at scale.
+- [Inspire Aesthetics](https://corraldata.com/blog/inspire-aesthetics/): AI and unified data driving revenue growth.
+- [Options Medical Weight Loss](https://corraldata.com/blog/how-options-medical-maximized-their-ltvcac/): Maximized LTV:CAC.
+- [Solo Stove](https://corraldata.com/blog/solo-stove/): True channel ROAS with a marketing mix model.
+- [sweetgreen](https://corraldata.com/blog/sweetgreen/): Retail/restaurant reporting case study.
+- [Lacoste](https://corraldata.com/blog/lacoste/): Retail reporting case study.
+- [Hotel Engine](https://corraldata.com/blog/hotel-engine/): B2B reporting case study.
+- [St. John Knits](https://corraldata.com/blog/stjohnknits/): Retail reporting case study.
+
+## Pricing, FAQ & Resources
+
+- [Pricing](https://corraldata.com/pricing/): CorralData plans and pricing.
+- [FAQ](https://corraldata.com/faq/): Frequently asked questions about CorralData.
+- [Glossary](https://corraldata.com/glossary/): Definitions of key data and analytics terms.
+- [Blog](https://corraldata.com/blog/): Data and AI insights, product updates, and executive perspectives.
+- [Changelog](https://corraldata.com/changelog/): Recent product updates.
+- [Book a Demo](https://corraldata.com/book-a-demo/): Schedule a live walkthrough of CorralData.
