@@ -94,17 +94,15 @@ apis:
   description: API platform for CorralData providing data analytics services.
   humanURL: https://corraldata.com/platform/
   aid: corraldata:corraldata-api-2
-- aid: corraldata:corraldata-api
-  name: CorralData API
-  description: 'CorralData API as documented publicly: 3 operations. Contract generated from the documentation by API Evangelist (2026-10-11);
-
-    not the provider''s own document.'
-  humanURL: https://docs.corraldata.com/kb/mcp/tools-reference.md
+- aid: corraldata:corraldata-kb-api
+  name: CorralData Kb API
+  description: The Kb API from CorralData — 3 operation(s) for kb.
+  humanURL: https://corraldata.com/platform/
+  tags:
+  - Kb
   properties:
   - type: OpenAPI
-    url: openapi/_ae-authored/corraldata-openapi-generated.yml
-    x-provenance: generated
-
+    url: openapi/corraldata-kb-api-openapi.yml
 x-coverage:
   state: unreadable
   reason: no-machine-readable-spec
